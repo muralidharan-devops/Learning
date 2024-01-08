@@ -1,14 +1,14 @@
-####Docker Registry
-#####Image
+#### Docker Registry
+##### Image
 ```
     image:docker.io/nginx/nginx
     image:registry/user or account/image or repo
 ```
-####Private Registry
+#### Private Registry
 ```
     docker login private-registry.io
 ```
-####Deploy Private Registry
+#### Deploy Private Registry
 
 ```
 docker run -d -p 5000:5000 --name registry registry:2

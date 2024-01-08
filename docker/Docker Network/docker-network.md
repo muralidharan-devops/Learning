@@ -1,4 +1,4 @@
-####Docker Network
+#### Docker Network
 ![alt Name](Default-Network.png)
 #### User-defined networks
 ```
@@ -12,8 +12,8 @@ List Docker Network
 
 ![alt Name](user-defined-network.png)
 
-#####Inspect network
+##### Inspect network
 ```docker inspect <container id></container>```
 
-#####Embedded DNS
+##### Embedded DNS
 ![alt Name](EmbeddedDNS.png)

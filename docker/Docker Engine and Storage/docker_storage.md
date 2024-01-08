@@ -1,5 +1,5 @@
-####Docker Stroage
-#####File System
+#### Docker Stroage
+##### File System
   */var/lib/docker
   |
   |--aufs
@@ -7,16 +7,16 @@
   |--image
   |--volumes
 
-####Layered Architecture
+#### Layered Architecture
 ![alt image](LayerArch.png)
-#####COPY ON WRITE
+##### COPY ON WRITE
 ![alt image](CopyOnWrite.png)
 > container layer is temp layer . once container delete , it will deleted
 
-####Volume mount
+#### Volume mount
 ```docker volume create data_volume```
 ```docker run -v data_volume:/var.lib/mysql mysql```
-####Bind Mount
+#### Bind Mount
 ```docker run -v /data/mysql:/var/lib/mysql mysql```
 
 ```
@@ -26,7 +26,7 @@ docker run --mount type=bind,source=/data/mysql,target=/var/lib/mysql mysql
 
 ![alt image](Volume.png)
 
-####Stroage driver
+#### Stroage driver
 1.AUFS
 2.ZFS
 3.BTRFS

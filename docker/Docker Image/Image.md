@@ -1,6 +1,6 @@
-####Docker Image
+#### Docker Image
 
-#####How to create my own image 
+##### How to create my own image 
 > 1.OS - Ubuntu
 > 2. Update apt repo
 > 3. Install dependencies using apt
@@ -8,7 +8,7 @@
 > 5. Copy source code to /opt folder
 > 6. Run the web server using "flask" command  
 
-######Dockerfile
+###### Dockerfile
 ```
 FROM Ubuntu
 RUN apt-get update
@@ -26,7 +26,7 @@ ENTRYPOINT FLASK_APP=/opt/source-code/app.py flask run
 ```docker build Dockerfile -t < image name >```
 ```docker push < image name >```
 
-####Layered Architecture
+#### Layered Architecture
 ![alt text](LayeredArch.png)
 
 ```docker history < image name >```

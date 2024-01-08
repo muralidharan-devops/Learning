@@ -1,12 +1,12 @@
-###Docker Run
+### Docker Run
 
-#####Run -tag
+##### Run -tag
 ```docker run  <image>```
 > if tag is not mentioned , it will automatically takes the latest
 
 ```docker run <image>:<tag>```
 
-#####Run- Interactive terminal
+##### Run- Interactive terminal
 
 ```docker run -i < image name >```
 > -i  will provide the options  input value on interactive mode
@@ -15,7 +15,7 @@
 > -it will provide the interactive terminal mode 
 
 
-#####Run - PORT mapping
+##### Run - PORT mapping
 
 ```
 docker run < image name>
